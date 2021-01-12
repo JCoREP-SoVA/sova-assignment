@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;900&display=swap");
+
+html,
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.profile {
+  width: 270px;
+  background-color: rgb(255, 181, 181);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.profile__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile__header--name {
+  margin-right: 7px;
+  font-weight: 900;
+}
+
+.profile__online {
+  text-align: center;
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0px;
+}
+
+img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.profile__btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile__btns--btn {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.profile__btns--btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.btn--text {
+  margin-left: 5px;
+  font-size: 20px;
+}
